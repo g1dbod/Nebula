@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "nebula",
+    "productName": "nebula-app",
     "version": "0.0.0"
   },
   "tauri": {
@@ -19,10 +19,12 @@
     },
     "windows": [
       {
-        "title": "nebula",
-        "width": 800,
-        "height": 600,
-        "hiddenTitle": false
+        "title": "nebula-app",
+        "fullscreen": false,
+        "resizable": true,
+        "width": 1920,
+        "height": 1080,
+        "transparent": true
       }
     ],
     "security": {
